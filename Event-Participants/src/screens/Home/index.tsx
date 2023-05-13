@@ -27,10 +27,17 @@ export function Home() {
 
   function handleParticipantRemove(name: string) {
     Alert.alert("Remove", `Do you really want to remove ${name}`, [
-      { text: "Yes", onPress: () => Alert.alert("Deleted!") },
+      {
+        text: "Yes",
+        onPress: () =>
+          setParticipants((prevState) =>
+            prevState.filter((participant) => participant !== name)
+          ),
+      },
       { text: "No", style: "cancel" },
     ]);
   }
+
   return (
     <View style={styles.container}>
       <Text style={styles.eventName}>Event Name</Text>
@@ -41,7 +48,7 @@ export function Home() {
           placeholderTextColor="#6b6b6b"
           placeholder="Participant"
           style={styles.input}
-          onChangeText={(event) => setParticipantName(event)}
+          onChangeText={setParticipantName}
           value={participantName}
         />
         <TouchableOpacity onPress={handleParticipantAdd} style={styles.button}>

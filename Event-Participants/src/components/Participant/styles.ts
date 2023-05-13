@@ -13,6 +13,7 @@ export const styles = StyleSheet.create({
   buttonText: {
     fontSize: 24,
     color: "#fff",
+    marginRight: 12,
   },
   button: {
     width: 56,

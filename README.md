@@ -17,9 +17,9 @@
 
 ### Run it:
 
-Donwload the code
-Inside the folder Event-Participants run:
-npm i
-then run:
-expo start
-scan the QR code and have fun!
+- Donwload the code
+- Inside the folder Event-Participants run:
+ npm i
+- then run:
+ expo start
+- scan the QR code and have fun!

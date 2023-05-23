@@ -1,6 +1,6 @@
 # Event-Participants
 
-###A simple project developped to review some React Native's foremost concepts.
+### A simple project developped to review some React Native's foremost concepts.
 
 Technologies:
 - Expo

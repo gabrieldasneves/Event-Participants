@@ -26,8 +26,8 @@
 
 ### Interface
 
-<img src="https://github.com/gabrieldasneves/Event-Participants/blob/main/Event-Participants/src/assets/mainscreen.jpeg?raw=true" width="100" height="100">
+<img src="https://github.com/gabrieldasneves/Event-Participants/blob/main/Event-Participants/src/assets/mainscreen.jpeg?raw=true" width="300" height="auto">
 
-<img src="https://github.com/gabrieldasneves/Event-Participants/blob/main/Event-Participants/src/assets/deletealert.jpeg?raw=true" width="100" height="100">
+<img src="https://github.com/gabrieldasneves/Event-Participants/blob/main/Event-Participants/src/assets/deletealert.jpeg?raw=true" width="300" height="auto">
 
 
